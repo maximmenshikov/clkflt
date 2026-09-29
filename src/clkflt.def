@@ -1,0 +1,50 @@
+;
+; Copyright (c) Microsoft Corporation.  All rights reserved.
+;
+;
+; Use of this sample source code is subject to the terms of the Microsoft
+; license agreement under which you licensed this sample source code. If
+; you did not accept the terms of the license agreement, you are not
+; authorized to use this sample source code. For the terms of the license,
+; please see the license agreement between you and Microsoft or, if applicable,
+; see the LICENSE.RTF on your install media or the root of your tools installation.
+; THE SAMPLE SOURCE CODE IS PROVIDED "AS IS", WITH NO WARRANTIES.
+;
+LIBRARY 	CLKFLT
+
+EXPORTS
+    CloseFile=FILTER_CloseFile
+    CreateDirectoryW=FILTER_CreateDirectoryW
+    CreateFileW=FILTER_CreateFileW
+    DeleteAndRenameFileW=FILTER_DeleteAndRenameFileW
+    DeleteFileW=FILTER_DeleteFileW
+    DeviceIoControl=FILTER_DeviceIoControl
+    FindClose=FILTER_FindClose
+    FindFirstFileW=FILTER_FindFirstFileW
+    FindNextFileW=FILTER_FindNextFileW
+    FlushFileBuffers=FILTER_FlushFileBuffers
+    FsIoControl=FILTER_FsIoControl
+    GetDiskFreeSpaceW=FILTER_GetDiskFreeSpaceW
+    GetFileAttributesW=FILTER_GetFileAttributesW
+    GetFileInformationByHandle=FILTER_GetFileInformationByHandle
+    GetFileSize=FILTER_GetFileSize
+    GetFileTime=FILTER_GetFileTime
+    GetVolumeInfo=FILTER_GetVolumeInfo
+    HookVolume=FILTER_HookVolume
+    LockFileEx=FILTER_LockFileEx
+    MoveFileW=FILTER_MoveFileW
+    Notify=FILTER_Notify
+    ReadFile=FILTER_ReadFile
+    ReadFileScatter=FILTER_ReadFileScatter
+    ReadFileWithSeek=FILTER_ReadFileWithSeek
+    RemoveDirectoryW=FILTER_RemoveDirectoryW
+    RegisterFileSystemFunction=FILTER_RegisterFileSystemFunction
+    SetEndOfFile=FILTER_SetEndOfFile
+    SetFileAttributesW=FILTER_SetFileAttributesW
+    SetFilePointer=FILTER_SetFilePointer
+    SetFileTime=FILTER_SetFileTime
+    WriteFile=FILTER_WriteFile
+    WriteFileGather=FILTER_WriteFileGather
+    WriteFileWithSeek=FILTER_WriteFileWithSeek
+    UnhookVolume=FILTER_UnhookVolume
+    UnlockFileEx=FILTER_UnlockFileEx
